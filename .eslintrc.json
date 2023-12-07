@@ -4,5 +4,37 @@
     "standard",
     "plugin:tailwindcss/recommended",
     "prettier"
-  ]
+  ],
+  "settings": {
+    "tailwindcss": {
+      // These are the default values but feel free to customize
+      "callees": ["classnames", "clsx", "ctl"],
+      "config": "tailwind.config.ts", // returned from `loadConfig()` utility if not provided
+      "cssFiles": [
+        "**/*.css",
+        "!**/node_modules",
+        "!**/.*",
+        "!**/dist",
+        "!**/build"
+      ],
+      "cssFilesRefreshRate": 5000,
+      "removeDuplicates": true,
+      "skipClassAttribute": false,
+      "whitelist": [
+        "bg-light-900",
+        "bg-dark-200",
+        "bg-dark-300",
+        "bg-dark-400",
+        "border-dark-400",
+        "font-spaceGrotesk",
+        "text-dark-100",
+        "text-light-500",
+        "text-light-900",
+        "text-primary-500",
+        "shadow-light-300"
+      ],
+      "tags": [],
+      "classRegex": "^class(Name)?$" // can be modified to support custom attributes. E.g. "^tw$" for `twin.macro`
+    }
+  }
 }
