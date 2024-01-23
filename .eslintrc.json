@@ -32,7 +32,10 @@
         "text-light-900",
         "!text-light-900",
         "text-primary-500",
-        "shadow-light-300"
+        "shadow-light-300",
+        "bg-light-700/50",
+        "bg-dark-500/50",
+        "bg-light-800"
       ],
       "tags": [],
       "classRegex": "^class(Name)?$" // can be modified to support custom attributes. E.g. "^tw$" for `twin.macro`
