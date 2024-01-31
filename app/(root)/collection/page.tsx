@@ -7,7 +7,6 @@ import { QuestionFilters } from "@/constants/filters";
 import { getSavedQuestions } from "@/lib/actions/user.action";
 import { SearchParamsProps } from "@/types";
 import { auth } from "@clerk/nextjs";
-import Loading from "./loading";
 
 import type { Metadata } from "next";
 
@@ -28,9 +27,6 @@ const CollectionPage = async ({ searchParams }: SearchParamsProps) => {
     filter: searchParams.filter,
     page: searchParams.page ? +searchParams.page : 1,
   });
-
-  const isLoading = true;
-  if (isLoading) return <Loading />;
 
   return (
     <>
