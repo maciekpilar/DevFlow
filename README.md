@@ -1,5 +1,7 @@
 # DevOverflow
 
+![](./readmeImg/home.jpg)
+
 **Live Preview: [Here](https://dev-flow-hhl5.vercel.app)**
 
 Fully responsive, modern looking, fully working, fullstack App. Only Jobs are not ready yet! But all other funcionality is ready
@@ -17,6 +19,32 @@ Fully responsive, modern looking, fully working, fullstack App. Only Jobs are no
 - Tags,
 - Single Tag,
 - Find Jobs (in progress),
+
+
+## Pages:
+### Home
+![](./readmeImg/home.jpg)
+
+### Community
+![](./readmeImg/community.jpg)
+
+### Profile
+![](./readmeImg/profile.jpg)
+
+### Edit Profile
+![](./readmeImg/EditProfile.jpg)
+
+### Collections
+![](./readmeImg/collections.jpg)
+
+### Single Question
+![](./readmeImg/singleQuestion.jpg)
+
+### Tags
+![](./readmeImg/tags.jpg)
+
+### Ask a question
+![](./readmeImg/AskAQuestion.jpg)
 
 
 ## In project are used: 
